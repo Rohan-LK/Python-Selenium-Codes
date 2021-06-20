@@ -68,7 +68,7 @@ print(len(prlst1)); print(len(prlst2)); print(len(prlst3)); print(len(prlst4))
 #   img_link_list.append(img_src)
 
 
-with xlsxwriter.Workbook('R:/BHK2.xlsx') as workbook:
+with xlsxwriter.Workbook('C:/BHK2.xlsx') as workbook:
     worksheet = workbook.add_worksheet()
 
     for row_num, data in enumerate(element_list):
