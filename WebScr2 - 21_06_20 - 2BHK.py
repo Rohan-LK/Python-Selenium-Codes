@@ -29,7 +29,7 @@ time.sleep(2.0)
 #for i in  ProductLink:
 #    pdtlink = i.get_attribute("target")
 #ProductLink = driver.find_elements_by_partial_link_text("_blank")
-
+ 
 
 Price = driver.find_elements_by_class_name("price")
 area = driver.find_elements_by_class_name("col-4")
